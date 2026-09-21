@@ -1,18 +1,91 @@
-# Egidio Ham — AI Automation Portfolio
+# Hi, I'm Egidio K Ham 👋
 
-Professional portfolio website built with HTML, CSS and JavaScript and designed for deployment on GitHub Pages.
+### AI Automation | Machine Learning | Python | JavaScript
 
-## Local development
+I build practical AI-powered solutions that help businesses and
+organizations reduce repetitive work, work with their data, and
+turn manual processes into useful digital workflows.
 
-Open `index.html` with VS Code and use Live Server to preview the site.
+## What I Build
 
-## Before publishing
+- AI-powered automation tools
+- Machine learning prediction systems
+- Browser-based AI tools
+- Python and FastAPI backends
+- API integrations
+- Data-driven business tools
+- Generative AI workflows
 
-Replace:
-- `your.email@example.com` with your real email
-- `https://github.com/` with your real GitHub profile/project links
-- Project descriptions/links with your final repositories
+## Technical Skills
 
-## Deployment
+**Python**
+- Python programming
+- pandas
+- NumPy
+- scikit-learn
 
-This site can be published with GitHub Pages.
+**AI & Machine Learning**
+- Machine learning workflows
+- Classification
+- Prediction
+- Model evaluation
+- Generative AI
+- Prompting
+- AI APIs
+
+**Web Development**
+- HTML
+- CSS
+- JavaScript
+- DOM
+- Fetch API
+- JSON
+
+**Backend & APIs**
+- FastAPI
+- REST APIs
+- API integration
+
+**Tools**
+- Git
+- GitHub
+- VS Code
+
+## Featured Projects
+
+### AI Business Performance Coach
+
+A machine-learning application that analyzes business information
+and produces performance predictions and practical insights.
+
+### Browser AI Coaching Tool
+
+A browser-based application that accepts user inputs, applies a
+prediction engine and provides an immediate coaching response.
+
+### AI Web App Integration
+
+A full-stack application pattern connecting a JavaScript frontend
+with a Python FastAPI backend through JSON and HTTP requests.
+
+## Services
+
+I help businesses and organizations with:
+
+- AI workflow automation
+- Business process automation
+- AI-powered web tools
+- Machine learning solutions
+- API and workflow integration
+- Data-driven digital tools
+
+## Let's Work Together
+
+Have a repetitive workflow, business process or idea that could
+benefit from automation or AI?
+
+📧 Email: mujuniegid@gmail.com
+
+🌐 Portfolio: https://mujuniegid-hue.github.io/
+
+💻 GitHub: https://github.com/mujuniegid-hue
