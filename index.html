@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Egidio K Ham — AI automation, machine learning, Python and JavaScript solutions.">
+  <meta name="theme-color" content="#155eef">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Egidio K Ham | AI Automation & ML Solutions">
+  <meta property="og:description" content="Practical AI, machine learning and automation solutions for businesses and organizations.">
+  <meta property="og:url" content="https://mujuniegid-hue.github.io/">
+  <meta property="og:image" content="https://mujuniegid-hue.github.io/assets/Profile.jpg">
   <title>Egidio K Ham | AI Automation & ML Solutions</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container">
+    <nav class="nav container" aria-label="Main navigation">
       <a class="logo" href="#home">HK<span>.</span></a>
       <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
       <div class="nav-links" id="navLinks">
@@ -39,8 +45,8 @@
       <div class="hero-card">
         <div class="status"><span></span> Available for projects</div>
         <div class="profile-photo">
-  <img src="assets/Profile.jpg" alt="Egidio K Ham">
-</div>
+          <img src="assets/Profile.jpg" alt="Egidio K Ham">
+        </div>
         <p>AI Automation &amp; Machine Learning</p>
         <small>Python · JavaScript · APIs · GitHub</small>
       </div>
@@ -51,12 +57,12 @@
         <p class="section-label">ABOUT</p>
         <h2>Technology should solve a business problem.</h2>
         <p class="lead">
-  I build practical AI, machine learning and automation solutions that help
-  businesses and organizations reduce repetitive work, make better use of
-  their data and turn manual processes into simple digital workflows.
-  I work with Python, JavaScript, machine learning, generative AI, APIs
-  and web technologies to turn real-world problems into useful tools.
-</p>
+          I build practical AI, machine learning and automation solutions that help
+          businesses and organizations reduce repetitive work, make better use of
+          their data and turn manual processes into simple digital workflows.
+          I work with Python, JavaScript, machine learning, generative AI, APIs
+          and web technologies to turn real-world problems into useful tools.
+        </p>
       </div>
     </section>
 
@@ -94,12 +100,15 @@
         <p class="section-label">SELECTED PROJECTS</p>
         <h2>Things I build</h2>
         <div class="projects">
+          <!-- TODO: change the three links below to each project's own repository -->
           <article class="project">
             <div class="project-top"><span>01</span><span>JavaScript</span></div>
             <h3>Browser AI Coaching Tool</h3>
             <p>A browser-based tool that accepts daily inputs, applies a prediction engine, generates a coaching message and displays results without reloading the page.</p>
             <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DOM</span></div>
-            <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <div class="project-links">
+              <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
           </article>
 
           <article class="project">
@@ -107,7 +116,9 @@
             <h3>Business Prediction System</h3>
             <p>A machine-learning workflow that prepares business data, trains a model, evaluates performance and produces predictions for new inputs.</p>
             <div class="tags"><span>Python</span><span>pandas</span><span>scikit-learn</span><span>Joblib</span></div>
-            <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <div class="project-links">
+              <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
           </article>
 
           <article class="project">
@@ -115,7 +126,24 @@
             <h3>AI Web App Integration</h3>
             <p>A practical full-stack pattern connecting a JavaScript browser interface to a Python FastAPI backend using JSON and HTTP requests.</p>
             <div class="tags"><span>FastAPI</span><span>JavaScript</span><span>JSON</span><span>API</span></div>
-            <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <div class="project-links">
+              <a href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>04</span><span>API • Agriculture</span></div>
+            <h3>Uganda Weather and Planting Advisor</h3>
+            <p>A free, mobile-friendly web app for smallholder farmers and extension workers. Users pick a district or search a village, choose a crop and activity, and get a live 7-day forecast, rain alerts and day-by-day planting, irrigation, spraying and harvesting advice, with forecast uncertainty explained.</p>
+            <img class="project-shot" src="assets/weather-advisor.jpg"
+                 alt="Screenshot of the Uganda Weather and Planting Advisor showing a 7-day forecast with advice"
+                 loading="lazy" onerror="this.style.display='none'">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Open-Meteo API</span></div>
+            <p class="project-note">Status: live prototype. Advice rules are awaiting agronomist review.</p>
+            <div class="project-links">
+              <a href="https://mujuniegid-hue.github.io/uganda-weather-planting-advisor/" target="_blank" rel="noopener">Live demo ↗</a>
+              <a href="https://github.com/mujuniegid-hue/uganda-weather-planting-advisor" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
           </article>
         </div>
       </div>
@@ -127,10 +155,10 @@
         <h2>My toolkit</h2>
         <div class="skill-grid">
           <div><strong>Python</strong><span>Programming · Data · Automation</span></div>
-          <div><strong>JavaScript</strong><span>Web · DOM · Fetch API</span></div>
+          <div><strong>JavaScript</strong><span>Web · DOM · Fetch API · REST APIs</span></div>
           <div><strong>Machine Learning</strong><span>scikit-learn · Prediction · Evaluation</span></div>
           <div><strong>Generative AI</strong><span>AI APIs · Prompting · AI workflows</span></div>
-          <div><strong>Web Development</strong><span>HTML · CSS · Browser tools</span></div>
+          <div><strong>Web Development</strong><span>HTML · CSS · Responsive design · Browser tools</span></div>
           <div><strong>Git &amp; GitHub</strong><span>Version control · Collaboration · Deployment</span></div>
         </div>
       </div>
@@ -144,31 +172,19 @@
           <p>Tell me what you are trying to automate, predict or build.</p>
         </div>
         <div class="contact-actions">
-  <a class="btn primary" href="mailto:mujuniegid@gmail.com">Email Me</a>
-
-  <a class="btn secondary"
-     href="https://wa.me/256709911883"
-     target="_blank"
-     rel="noopener">
-    WhatsApp Me
-  </a>
-
-  <a class="btn secondary"
-     href="https://github.com/mujuniegid-hue"
-     target="_blank"
-     rel="noopener">
-    GitHub Profile ↗
-  </a>
-</div>
+          <a class="btn primary" href="mailto:mujuniegid@gmail.com">Email Me</a>
+          <a class="btn secondary" href="https://wa.me/256709911883" target="_blank" rel="noopener">WhatsApp Me</a>
+          <a class="btn secondary" href="https://github.com/mujuniegid-hue" target="_blank" rel="noopener">GitHub Profile ↗</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-  <div class="container footer-inner">
-    <span>© 2026 Egidio K Ham. All rights reserved.</span>
-  </div>
-</footer>
+    <div class="container footer-inner">
+      <span>© 2026 Egidio K Ham. All rights reserved.</span>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
