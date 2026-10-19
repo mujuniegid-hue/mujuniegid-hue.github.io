@@ -221,10 +221,16 @@ footer { padding: 25px 0; border-top: 1px solid var(--line); color: var(--muted)
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
-.logo img {
+
+/* Keep the navigation logo small */
+.site-header .nav .logo img {
+  display: block;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
+  max-width: 42px;
+  min-width: 42px;
+  max-height: 42px;
   object-fit: cover;
-  display: block;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
