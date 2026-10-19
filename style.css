@@ -221,3 +221,10 @@ footer { padding: 25px 0; border-top: 1px solid var(--line); color: var(--muted)
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
+.logo img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
